@@ -1,0 +1,21 @@
+ul li{
+    list-style: none;
+}
+.text-color{
+    color:rgba(78, 71, 255, 1);
+    font-weight: bold;
+}
+.bg-color{
+    background-color: rgba(78, 71, 255, 1);
+    color:white;
+    font-size: small;
+    display: inline;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+ 
+ul{
+    display:flex;
+    justify-content: space-around;
+}
