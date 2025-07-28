@@ -178,8 +178,69 @@ button{
 
 .user-section{
     justify-content:center;
-    gap: 60px;
-    
+    gap: 60px;    
+}
 
-    
+
+/* mid-section */
+.mid-section{
+    margin-top:158px;
+    text-align: center;
+    border:1px solid #FFFFFF;
+    box-shadow: 0 0 10px rgba(242, 237, 237, 1);
+    margin: 140px;
+
+}
+
+.mid-button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.mid-section-title{
+    font-weight:bold;
+    font-size: 40px;
+}
+.mid-section img{
+    border-radius: 20px;
+}
+
+/* touch-section */
+.touch-section{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+}
+.touch-description{
+    font-weight:bold;
+    font-size: 67px;
+}
+
+/* form-section */
+input[type="text"] ,input[type="email"],textarea
+{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+    margin-top: 5px;
+    padding:10px;
+   
+}    
+input[type="text"] ,input[type="email"]
+{
+  height: 40px;  
+  width:280px;
+
+}
+
+textarea{
+    height: 80px;
+    width: 280px;
+}
+
+.touch-button{
+ background-color:rgba(78, 71, 255, 1);
+height: 40px;  
+width:280px;
 }
